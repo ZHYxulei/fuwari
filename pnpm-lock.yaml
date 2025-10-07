@@ -32,6 +32,9 @@ importers:
       '@expressive-code/plugin-line-numbers':
         specifier: ^0.41.3
         version: 0.41.3
+      '@fancyapps/ui':
+        specifier: github:fancyapps/ui
+        version: https://codeload.github.com/fancyapps/ui/tar.gz/5678b4c7e8b7f296b3c8a8f0c369fae1b67b6b9e
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.2.8
         version: 5.2.8
@@ -50,6 +53,9 @@ importers:
       '@iconify-json/material-symbols':
         specifier: ^1.2.40
         version: 1.2.40
+      '@iconify-json/simple-icons':
+        specifier: ^1.2.54
+        version: 1.2.54
       '@iconify/svelte':
         specifier: ^4.2.0
         version: 4.2.0(svelte@5.39.9)
@@ -1075,6 +1081,10 @@ packages:
   '@expressive-code/plugin-text-markers@0.41.3':
     resolution: {integrity: sha512-SN8tkIzDpA0HLAscEYD2IVrfLiid6qEdE9QLlGVSxO1KEw7qYvjpbNBQjUjMr5/jvTJ7ys6zysU2vLPHE0sb2g==, tarball: https://registry.npmjs.org/@expressive-code/plugin-text-markers/-/plugin-text-markers-0.41.3.tgz}
 
+  '@fancyapps/ui@https://codeload.github.com/fancyapps/ui/tar.gz/5678b4c7e8b7f296b3c8a8f0c369fae1b67b6b9e':
+    resolution: {tarball: https://codeload.github.com/fancyapps/ui/tar.gz/5678b4c7e8b7f296b3c8a8f0c369fae1b67b6b9e}
+    version: 6.0.34
+
   '@fontsource-variable/jetbrains-mono@5.2.8':
     resolution: {integrity: sha512-WBA9elru6Jdp5df2mES55wuOO0WIrn3kpXnI4+W2ek5u3ZgLS9XS4gmIlcQhiZOWEKl95meYdvK7xI+ETLCq/Q==, tarball: https://registry.npmjs.org/@fontsource-variable/jetbrains-mono/-/jetbrains-mono-5.2.8.tgz}
 
@@ -1092,6 +1102,9 @@ packages:
 
   '@iconify-json/material-symbols@1.2.40':
     resolution: {integrity: sha512-utXUazVsZ/cXJCKVIOdqLgwgmuy3Yx0dJtTk771d+O7NSdklUR42thl0H8L5db07I+TMS56BzPAf8vEDH68tdQ==, tarball: https://registry.npmjs.org/@iconify-json/material-symbols/-/material-symbols-1.2.40.tgz}
+
+  '@iconify-json/simple-icons@1.2.54':
+    resolution: {integrity: sha512-OQQYl8yC5j3QklZOYnK31QYe5h47IhyCoxSLd53f0e0nA4dgi8VOZS30SgSAbsecQ+S0xlGJMjXIHTIqZ+ML3w==, tarball: https://registry.npmjs.org/@iconify-json/simple-icons/-/simple-icons-1.2.54.tgz}
 
   '@iconify/svelte@4.2.0':
     resolution: {integrity: sha512-fEl0T7SAPonK7xk6xUlRPDmFDZVDe2Z7ZstlqeDS/sS8ve2uyU+Qa8rTWbIqzZJlRvONkK5kVXiUf9nIc+6OOQ==, tarball: https://registry.npmjs.org/@iconify/svelte/-/svelte-4.2.0.tgz}
@@ -6213,6 +6226,8 @@ snapshots:
     dependencies:
       '@expressive-code/core': 0.41.3
 
+  '@fancyapps/ui@https://codeload.github.com/fancyapps/ui/tar.gz/5678b4c7e8b7f296b3c8a8f0c369fae1b67b6b9e': {}
+
   '@fontsource-variable/jetbrains-mono@5.2.8': {}
 
   '@fontsource/roboto@5.2.8': {}
@@ -6230,6 +6245,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/material-symbols@1.2.40':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.54':
     dependencies:
       '@iconify/types': 2.0.0
 
