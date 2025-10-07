@@ -37,6 +37,7 @@ A static blog template built with [Astro](https://astro.build).
     - [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
     - Or run one of the following commands:
        ```sh
+<<<<<<< HEAD
        npm create fuwari@latest
        yarn create fuwari
        pnpm create fuwari@latest
@@ -45,6 +46,16 @@ A static blog template built with [Astro](https://astro.build).
        ```
 2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
     - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
+=======
+       pnpm create fuwari@latest
+       yarn create fuwari
+       pnpm create fuwari@latest
+       bun create fuwari@latest
+       deno run -A pnpm:create-fuwari@latest
+       ```
+2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
+    - Install [pnpm](https://pnpm.io) `pnpm install -g pnpm` if you haven't.
+>>>>>>> ece3e2f (Initial commit from Astro)
 3. Edit the config file `src/config.ts` to customize your blog.
 4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
 5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
