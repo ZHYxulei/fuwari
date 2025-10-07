@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "fuwari",
-=======
   "name": "zhyxulei-blog-fuwari",
->>>>>>> ece3e2f (Initial commit from Astro)
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -28,20 +24,22 @@
     "@expressive-code/core": "^0.41.3",
     "@expressive-code/plugin-collapsible-sections": "^0.41.3",
     "@expressive-code/plugin-line-numbers": "^0.41.3",
+    "@fancyapps/ui": "github:fancyapps/ui",
     "@fontsource-variable/jetbrains-mono": "^5.2.8",
     "@fontsource/roboto": "^5.2.8",
     "@iconify-json/fa6-brands": "^1.2.6",
     "@iconify-json/fa6-regular": "^1.2.4",
     "@iconify-json/fa6-solid": "^1.2.4",
-    "@iconify-json/material-symbols": "^1.2.39",
+    "@iconify-json/material-symbols": "^1.2.40",
+    "@iconify-json/simple-icons": "^1.2.54",
     "@iconify/svelte": "^4.2.0",
     "@swup/astro": "^1.7.0",
     "@tailwindcss/typography": "^0.5.19",
-    "astro": "5.13.10",
+    "astro": "5.14.1",
     "astro-expressive-code": "^0.41.3",
     "astro-icon": "^1.1.5",
     "hastscript": "^9.0.1",
-    "katex": "^0.16.22",
+    "katex": "^0.16.23",
     "markdown-it": "^14.1.0",
     "mdast-util-to-string": "^4.0.0",
     "overlayscrollbars": "^2.12.0",
@@ -60,9 +58,9 @@
     "sanitize-html": "^2.17.0",
     "sharp": "^0.34.4",
     "stylus": "^0.64.0",
-    "svelte": "^5.39.6",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.9.2",
+    "svelte": "^5.39.9",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.9.3",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
@@ -76,9 +74,5 @@
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^13.0.2"
   },
-  "packageManager": "pnpm@9.14.4"
-<<<<<<< HEAD
+  "packageManager": "pnpm@10.18.1"
 }
-=======
-}
->>>>>>> ece3e2f (Initial commit from Astro)
