@@ -30,6 +30,15 @@ export type SiteConfig = {
 			url?: string;
 		};
 	};
+	background: {
+		enable: boolean;
+		src: string;
+		position?: "top" | "center" | "bottom";
+		size?: "cover" | "contain" | "auto";
+		repeat?: "no-repeat" | "repeat" | "repeat-x" | "repeat-y";
+		attachment?: "fixed" | "scroll" | "local";
+		opacity?: number;
+	};
 	toc: {
 		enable: boolean;
 		depth: 1 | 2 | 3;
@@ -77,6 +86,19 @@ export type LicenseConfig = {
 	url: string;
 };
 
+export type ImageFallbackConfig = {
+	enable: boolean;
+	originalDomain: string;
+	fallbackDomain: string;
+};
+
+export type UmamiConfig = {
+	enable: boolean;
+	baseUrl: string;
+	shareId: string;
+	timezone: string;
+};
+
 export type LIGHT_DARK_MODE =
 	| typeof LIGHT_MODE
 	| typeof DARK_MODE
@@ -99,4 +121,9 @@ export type BlogPostData = {
 
 export type ExpressiveCodeConfig = {
 	theme: string;
+};
+
+export type GitHubEditConfig = {
+	enable: boolean;
+	baseUrl: string;
 };
