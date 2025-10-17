@@ -7,6 +7,7 @@ import swup from "@swup/astro";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
 import { defineConfig } from "astro/config";
+import clarity from '@kbyte-tech/astro-clarity';
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeComponents from "rehype-components";/* Render the custom directive content */
 import rehypeKatex from "rehype-katex";
@@ -90,13 +91,16 @@ export default defineConfig({
                 delHue: 0,
                 insHue: 180,
                 markHue: 250
-            }
+            },
         },
         frames: {
             showCopyToClipboardButton: false,
-        }
+        },
 		}),
-        svelte(), sitemap()],
+        clarity({
+            enabled: true,
+            projectId: 'trpnkf1q8b',
+        }),svelte(), sitemap()],
     markdown: {
         remarkPlugins: [
             remarkMath,

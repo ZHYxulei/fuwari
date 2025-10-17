@@ -14,7 +14,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "一个技术宅的自我幻想",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 310, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 155, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
@@ -129,7 +129,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 
 export const gitHubEditConfig: GitHubEditConfig = {
 	enable: true,
-	baseUrl: "https://github.com/ZHYxulei/astro-blog/blob/main/src/content/posts",
+	baseUrl: "https://github.com/ZHYxulei/fuwari/blob/main/src/content/posts",
 };
 
 export const statsConfig = {

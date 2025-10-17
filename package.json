@@ -33,6 +33,7 @@
     "@iconify-json/material-symbols": "^1.2.40",
     "@iconify-json/simple-icons": "^1.2.54",
     "@iconify/svelte": "^4.2.0",
+    "@kbyte-tech/astro-clarity": "^0.0.8",
     "@swup/astro": "^1.7.0",
     "@tailwindcss/typography": "^0.5.19",
     "astro": "5.14.1",
@@ -74,5 +75,5 @@
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^13.0.2"
   },
-  "packageManager": "pnpm@10.18.1"
+  "packageManager": "pnpm@10.18.3"
 }
