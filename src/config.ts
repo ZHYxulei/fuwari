@@ -43,10 +43,10 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// Leave this array empty to use the default favicon
 		{
-		src: 'https://q2.qlogo.cn/headimg_dl?dst_uin=2742291286&spec=5',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		}
+			src: "https://q2.qlogo.cn/headimg_dl?dst_uin=2742291286&spec=5", // Path of the favicon, relative to the /public directory
+			//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+			sizes: "32x32", // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		},
 	],
 };
 
@@ -61,7 +61,7 @@ export const navBarConfig: NavBarConfig = {
 		},
 		{
 			name: "赞助",
-			url: "/donate/", // Internal links should not include the base path, as it is automatically added
+			url: "/sponsors/", // Internal links should not include the base path, as it is automatically added
 			external: false, // Show an external link icon and will open in a new tab
 		},
 		LinkPreset.About,
@@ -87,12 +87,12 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Twitter",
-			icon: "fa6-brands:twitter", 
+			icon: "fa6-brands:twitter",
 			url: "https://X.com/@ZHYxulei",
 		},
 		{
 			name: "Telegram",
-			icon: "fa6-brands:telegram", 
+			icon: "fa6-brands:telegram",
 			url: "https://t.me/ZHYxulei",
 		},
 		{
@@ -136,6 +136,8 @@ export const statsConfig = {
 	viewsText: "浏览",
 	visitsText: "访客",
 	loadingText: "统计加载中...",
-	unavailableText: "统计不可用。请检查是否屏蔽了Umami域名，如AdGuard和AdBlock等插件",
-	getStatsText: (pageViews: number, visits: number) => `${statsConfig.viewsText} ${pageViews} · ${statsConfig.visitsText} ${visits}`,
+	unavailableText:
+		"统计不可用。请检查是否屏蔽了Umami域名，如AdGuard和AdBlock等插件",
+	getStatsText: (pageViews: number, visits: number) =>
+		`${statsConfig.viewsText} ${pageViews} · ${statsConfig.visitsText} ${visits}`,
 };

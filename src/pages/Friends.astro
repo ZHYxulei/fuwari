@@ -1,6 +1,10 @@
 ---
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { Icon } from "astro-icon/components";
+import friendsData from "@/data/friends.json";
+import type { FriendsData } from "@/types/data";
+
+const { friends } = friendsData as FriendsData;
 ---
 
 <MainGridLayout title="友链">
@@ -12,24 +16,17 @@ import { Icon } from "astro-icon/components";
             <h1 class="text-2xl font-bold text-black dark:text-white">友链</h1>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="https://blog.2b2x.cn/" target="_blank" class="friend-card">
-                <div class="flex items-center gap-2">
-                    <img src="https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0"  loading="lazy" class="w-5 h-5 rounded">
-                    <div class="font-bold text-black dark:text-white">AcoFork Blog</div>
-                </div>
-                <div class="text-sm text-black/50 dark:text-white/50">Protect What You Love</div>
-            </a>
+            {friends.map((friend) => (
+                <a href={friend.url} target="_blank" class="friend-card">
+                    <div class="flex items-center gap-2">
+                        <img src={friend.avatar} loading="lazy" class="w-5 h-5 rounded" alt={`${friend.name}的头像`}>
+                        <div class="font-bold text-black dark:text-white">{friend.name}</div>
+                    </div>
+                    <div class="text-sm text-black/50 dark:text-white/50">{friend.description}</div>
+                </a>
+            ))}
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="https://blog.zhheo.com/" target="_blank" class="friend-card">
-                <div class="flex items-center gap-2">
-                    <img src="https://img.zhheo.com/i/67d8fa75943e4.webp"  loading="lazy" class="w-5 h-5 rounded">
-                    <div class="font-bold text-black dark:text-white">张洪Heo</div>
-                </div>
-                <div class="text-sm text-black/50 dark:text-white/50">分享设计与科技生活</div>
-            </a>
-        </div>
-
+        
         <!-- 申请友链 -->
         <div class="sponsors-section mt-8">
         	<h2 class="text-xl font-bold text-black dark:text-white mb-4 flex items-center gap-2">
@@ -37,7 +34,7 @@ import { Icon } from "astro-icon/components";
         		将您的网站加入本站友链
         	</h2>
         	<p class="text-sm text-black/60 dark:text-white/60">
-        		请自行提交PR <a target="_blank" href="https://github.com/ZHYxulei/fuwari/blob/main/src/pages/friends.astro" class="transition link text-[var(--primary)] font-medium underline">点击这里提交</a>
+        		请自行提交PR <a target="_blank" href="https://github.com/ZHYxulei/fuwari/blob/main/src/data/friends.json" class="transition link text-[var(--primary)] font-medium underline">点击这里提交</a>
         	</p>
         <br>
     </div>
