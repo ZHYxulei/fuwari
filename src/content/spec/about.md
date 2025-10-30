@@ -11,6 +11,7 @@
 ## 网站性质
 
 本网站是一个静态网站，这意味着：
+
 - 我们不会在服务器端存储您的个人信息
 - 网站内容是预先生成的，不会动态处理用户数据
 - 我们不会主动收集或存储您的个人信息
@@ -24,11 +25,19 @@
 根据您访问的节点不同，以下服务提供商可能会收集您的信息：
 
 **Cloudflare**
+
 - 可能收集的信息：IP 地址、访问时间、请求的页面、浏览器信息
 - 用途：提供 CDN 服务、安全防护、性能优化
 - 隐私政策：[Cloudflare 隐私政策](https://www.cloudflare.com/privacypolicy/)
 
+**EdgeOne**
+
+- 可能收集的信息：IP 地址、访问时间、请求的页面、浏览器信息
+- 用途：提供 CDN 加速、网络安全防护、性能与流量分析、故障排查与优化服务
+- 隐私政策：[EdgeOne 隐私政策](https://www.tencentcloud.com/zh/document/product/301/69461)
+
 **Netlify**
+
 - 可能收集的信息：IP 地址、访问日志、性能数据
 - 用途：网站托管、部署服务
 - 隐私政策：[Netlify 隐私政策](https://www.netlify.com/privacy/)
@@ -36,11 +45,25 @@
 ### 分析和统计服务
 
 **Google Analytics（谷歌分析）**
+
 - 可能收集的信息：匿名化的用户数据、页面浏览量、会话时长、地理位置
 - 用途：网站性能分析、用户行为分析
 - 隐私政策：[Google 隐私政策](https://policies.google.com/privacy)
 
+**Microsoft Clarity（微软统计）**
+
+- 可能收集的信息：用户与页面的交互数据（如点击、滚动、鼠标移动）、页面浏览量、会话时长、设备与浏览器信息、匿名化的用户识别数据
+- 用途：网站可用性分析、用户交互行为研究、帮助优化网站设计与性能
+- 隐私政策：[Microsoft 隐私声明](https://privacy.microsoft.com/zh-cn/privacystatement)
+
+**Baidu Tongji（百度统计）**
+
+- 可能收集的信息：页面浏览量、访问来源、IP 地址（可用于地理定位）、设备与浏览器类型、访问时长、点击事件
+- 用途：网站流量分析、用户访问行为分析、广告投放效果评估
+- 隐私政策：[百度统计隐私政策](https://privacy.baidu.com/policy/PrivacyPolicy)
+
 **Umami 分析**
+
 - 可能收集的信息：页面浏览量、访问来源、设备类型（匿名化处理）
 - 用途：网站流量统计和分析
 - 特点：注重隐私保护，不使用 Cookie，数据匿名化处理
@@ -49,6 +72,7 @@
 ## Cookie 和本地存储
 
 我们的网站可能使用以下技术：
+
 - **Cookie**：用于网站功能和第三方服务
 - **本地存储**：用于保存用户偏好设置（如主题选择）
 - **会话存储**：用于临时存储页面状态
@@ -56,6 +80,7 @@
 ## 您的权利
 
 您有权：
+
 - 了解我们收集的信息类型
 - 要求删除您的个人信息（如适用）
 - 选择退出某些数据收集
@@ -64,6 +89,7 @@
 ## 如何保护您的隐私
 
 您可以通过以下方式保护您的隐私：
+
 - 使用隐私浏览模式
 - 禁用第三方 Cookie
 - 使用广告拦截器
@@ -73,6 +99,7 @@
 ## 数据安全
 
 虽然我们不直接收集您的个人信息，但我们：
+
 - 使用 HTTPS 加密传输
 - 选择信誉良好的第三方服务提供商
 - 定期审查第三方服务的隐私政策
@@ -88,14 +115,16 @@
 ## 联系我们
 
 如果您对本隐私政策有任何疑问或关注，请通过以下方式联系我们：
+
 - 通过网站联系页面
 - 发送邮件至网站管理员
 
 ## 滥用与版权举报
 
 如果您发现网站内容存在滥用、侵权或其他违法违规行为，请通过以下方式联系我们：
-- **邮箱**：ZHYxulei@outlook.com
-- **Telegram**：https://t.me/ZHYxulei
+
+- **邮箱**：<ZHYxulei@outlook.com>
+- **Telegram**：<https://t.me/ZHYxulei>
 
 我们将认真对待每一个举报，并在收到举报后及时处理相关问题。
 
@@ -108,6 +137,7 @@
 *本隐私政策旨在透明地说明我们的数据处理实践。我们建议您定期查看本政策以了解任何更新。*
 
 > ### Sources of images used in this site
+>
 > - [Unsplash](https://unsplash.com/)
 > - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
 > - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
