@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/donate",
+      "destination": "/sponsors",
+      "statusCode": 302
+    }
+  ]
+}
