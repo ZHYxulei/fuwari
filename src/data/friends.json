@@ -29,6 +29,12 @@
 			"avatar": "https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg",
 			"description": "一个技术宅的自我幻想",
 			"url": "https://blog.anheyu.com/"
+		},
+		{
+			"name": "伊卡的记事本",
+			"avatar": "https://ikamusume7.org/avatar.webp",
+			"description": "又菜又爱学",
+			"url": "https://ikamusume7.org"
 		}
 	]
 }
