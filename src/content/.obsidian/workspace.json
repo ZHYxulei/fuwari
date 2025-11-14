@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/1.0.1.md",
+                "file": "posts/ShanDongNo.4.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "1.0.1"
+              "title": "ShanDongNo.4"
             }
           }
         ]
@@ -171,9 +171,18 @@
   },
   "active": "e8f949909eaca245",
   "lastOpenFiles": [
-    "2025-10-18.md",
-    "posts/1.0.1.md",
     "posts/Hello World!.md",
+    "posts/ShanDongNo.4.md",
+    "assets/images/wx_camera_1761906340874.jpg",
+    "assets/images/MVIMG_20251031_182111.jpg",
+    "assets/images/640.png",
+    "assets/images",
+    "assets/新建文件夹",
+    "assets/640.png",
+    "assets",
+    "新建文件夹",
+    "posts/1.0.1.md",
+    "2025-10-18.md",
     "spec/about.md"
   ]
 }
