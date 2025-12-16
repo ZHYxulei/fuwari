@@ -17,11 +17,14 @@
 		"preinstall": "npx only-allow pnpm"
 	},
 	"dependencies": {
-		"@astrojs/check": "^0.9.5",
-		"@astrojs/rss": "^4.0.13",
+		"@astrojs/check": "^0.9.6",
+		"@astrojs/cloudflare": "^12.6.12",
+		"@astrojs/netlify": "^6.6.3",
+		"@astrojs/rss": "^4.0.14",
 		"@astrojs/sitemap": "^3.6.0",
-		"@astrojs/svelte": "7.2.1",
+		"@astrojs/svelte": "7.2.3",
 		"@astrojs/tailwind": "^6.0.2",
+		"@astrojs/vercel": "^9.0.2",
 		"@expressive-code/core": "^0.41.3",
 		"@expressive-code/plugin-collapsible-sections": "^0.41.3",
 		"@expressive-code/plugin-line-numbers": "^0.41.3",
@@ -32,12 +35,14 @@
 		"@iconify-json/fa6-regular": "^1.2.4",
 		"@iconify-json/fa6-solid": "^1.2.4",
 		"@iconify-json/material-symbols": "^1.2.40",
+		"@iconify-json/material-symbols-light": "^1.2.50",
 		"@iconify-json/simple-icons": "^1.2.54",
 		"@iconify/svelte": "^4.2.0",
 		"@kbyte-tech/astro-clarity": "^0.0.8",
 		"@swup/astro": "^1.7.0",
 		"@tailwindcss/typography": "^0.5.19",
-		"astro": "5.15.2",
+		"@vercel/analytics": "^1.6.1",
+		"astro": "5.16.5",
 		"astro-expressive-code": "^0.41.3",
 		"astro-icon": "^1.1.5",
 		"hastscript": "^9.0.1",
@@ -67,15 +72,16 @@
 		"unist-util-visit": "^5.0.0"
 	},
 	"devDependencies": {
-		"@astrojs/ts-plugin": "^1.10.5",
+		"@astrojs/ts-plugin": "^1.10.6",
 		"@biomejs/biome": "2.2.4",
 		"@rollup/plugin-yaml": "^4.1.2",
 		"@types/hast": "^3.0.4",
 		"@types/markdown-it": "^14.1.2",
 		"@types/mdast": "^4.0.4",
 		"@types/sanitize-html": "^2.16.0",
+		"baseline-browser-mapping": "^2.9.7",
 		"postcss-import": "^16.1.1",
 		"postcss-nesting": "^13.0.2"
 	},
-	"packageManager": "pnpm@10.18.3"
+	"packageManager": "pnpm@10.26.0"
 }

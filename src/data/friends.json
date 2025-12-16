@@ -4,7 +4,7 @@
 			"name": "AcoFork Blog",
 			"avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
 			"description": "Protect What You Love",
-			"url": "https://blog.cuteleaf.cn"
+			"url": "https://blog.acofork.com/"
 		},
 		{
 			"name": "张洪Heo",
@@ -35,6 +35,12 @@
 			"avatar": "https://ikamusume7.org/avatar.webp",
 			"description": "又菜又爱学",
 			"url": "https://ikamusume7.org"
+		},
+		{
+			"name": "夏夜流萤",
+			"avatar": "https://q1.qlogo.cn/g?b=qq&nk=7618557&s=640",
+			"description": "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
+			"url": "https://blog.cuteleaf.cn"
 		}
 	]
 }

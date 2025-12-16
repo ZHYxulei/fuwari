@@ -1,3 +1,4 @@
+import netlify from "@astrojs/netlify";
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
@@ -32,10 +33,12 @@ export default defineConfig({
 	base: "/",
 	trailingSlash: "always",
 	output: "static",
+
 	redirects: {
 		"/donate": "/sponsors",
-		"/donate/": "/sponsors/",
+		"/gh-proxy": "https://gh-proxy.zhyxulei.top/",
 	},
+
 	integrations: [
 		tailwind({
 			nesting: true,
@@ -60,6 +63,9 @@ export default defineConfig({
 				"fa6-brands": ["*"],
 				"fa6-regular": ["*"],
 				"fa6-solid": ["*"],
+				"simple-icons": ["*"],
+				"material-symbols-light": ["*"],
+				"material-symbols": ["*"],
 			},
 		}),
 		expressiveCode({
@@ -114,6 +120,9 @@ export default defineConfig({
 		svelte(),
 		sitemap(),
 	],
+
+	adapter: netlify(),
+
 	markdown: {
 		remarkPlugins: [
 			remarkMath,
@@ -166,6 +175,7 @@ export default defineConfig({
 			],
 		],
 	},
+
 	vite: {
 		build: {
 			rollupOptions: {

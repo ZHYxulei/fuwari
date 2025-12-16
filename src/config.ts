@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: true,
+		enable: false,
 		src: "https://t.alcy.cc/pc", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
@@ -28,7 +28,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	background: {
-		enable: false, // Enable background image
+		enable: true, // Enable background image
 		src: "https://t.alcy.cc/pc", // Background image URL (supports HTTPS)
 		position: "center", // Background position: 'top', 'center', 'bottom'
 		size: "cover", // Background size: 'cover', 'contain', 'auto'
@@ -140,4 +140,4 @@ export const statsConfig = {
 		"统计不可用。请检查是否屏蔽了Umami域名，如AdGuard和AdBlock等插件",
 	getStatsText: (pageViews: number, visits: number) =>
 		`${statsConfig.viewsText} ${pageViews} · ${statsConfig.visitsText} ${visits}`,
-};
+}; //已弃用，但我懒得改其他东西了，先放着吧

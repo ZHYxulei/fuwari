@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "ShanDongNo.4"
             }
+          },
+          {
+            "id": "2077c3bb84f77fab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/1.0.2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.0.2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,10 +184,15 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "e8f949909eaca245",
+  "active": "2077c3bb84f77fab",
   "lastOpenFiles": [
+    "posts/1.0.1.md",
+    "posts/1.0.2.md",
+    "[AcoFork.md",
     "posts/Hello World!.md",
+    "posts/test.md",
     "posts/ShanDongNo.4.md",
+    "posts/未命名.md",
     "assets/images/wx_camera_1761906340874.jpg",
     "assets/images/MVIMG_20251031_182111.jpg",
     "assets/images/640.png",
@@ -181,7 +201,6 @@
     "assets/640.png",
     "assets",
     "新建文件夹",
-    "posts/1.0.1.md",
     "2025-10-18.md",
     "spec/about.md"
   ]

@@ -113,7 +113,7 @@ const { sponsors } = sponsorsData as SponsorsData;
                 <div class="sponsor-card">
                                     {sponsors.map((sponsor) => (
                     <div class="sponsor-card">
-                        <div class="flex items-center gap-3 p-4 rounded-lg bg-[var(--card-bg)] border border-black/10 dark:border-white/10">
+                        <div class="flex items-center gap-3 p-4 rounded-lg bg-[var(--card-bg)] border border-black/10 dark:border-white/10" style="backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);">
                             <div class="w-10 h-10 rounded-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center overflow-hidden">
                                 {sponsor.avatar ? (
                                     <img src={sponsor.avatar} alt={`${sponsor.name}的头像`} loading="lazy" class="w-full h-full object-cover" />

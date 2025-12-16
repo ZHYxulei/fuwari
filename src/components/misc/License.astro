@@ -22,9 +22,22 @@ const postUrl = decodeURIComponent(Astro.url.toString());
     <div class="transition font-bold text-black/75 dark:text-white/75">
         {title}
     </div>
-    <a href={postUrl} class="link text-[var(--primary)]">
-        {postUrl}
-    </a>
+    <a id="current-link" style="display:none;" class="link text-[var(--primary)]"></a>
+    <script>
+    const currentLink = document.getElementById('current-link');
+
+    if (currentLink) {
+        console.log(`[license] old url: ${window.location.href}`);
+        const url = new URL(window.location.href);
+        url.search = '';
+        const address = url.toString();
+        console.log(`[license] new url: ${address}`);
+    
+        currentLink.textContent = address;  // 显示文本 = 当前 URL
+        currentLink.href = address;         // 点击跳转 = 当前 URL
+        currentLink.style.display = 'inline'; // 显示出来
+    }
+    </script>
     <div class="flex gap-6 mt-2">
         <div>
             <div class="transition text-black/30 dark:text-white/30 text-sm">{i18n(I18nKey.author)}</div>
